@@ -14,7 +14,7 @@ Automatic foldier matching.
 
 ### INSTALLING
 
-Windows: Download "OMDB_Requester.exe" located in bin\debug.   No installation.
+Windows: Download "OMDB_Requester.exe" located in main directory.   No installation.
 
 Other: TBD
 
