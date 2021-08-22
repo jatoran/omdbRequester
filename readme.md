@@ -13,6 +13,7 @@ Match movies to OMDB's movie database for Year, Genre, ratings, and more
 * Automatic foldier matching
 * Multiple Review Sources
 * Rapid API Access
+* CSV Export for your records
 
 ### INSTALLING
 
