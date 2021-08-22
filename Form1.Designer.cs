@@ -30,11 +30,11 @@ namespace OMDB_Requester {
 			this.label3 = new System.Windows.Forms.Label();
 			this.apiTextbox = new System.Windows.Forms.TextBox();
 			this.editApiButton = new System.Windows.Forms.Button();
-			this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+			this.omdbLink = new System.Windows.Forms.LinkLabel();
 			this.dataGridView1 = new System.Windows.Forms.DataGridView();
-			this.label1 = new System.Windows.Forms.Label();
 			this.folderMatchButton = new System.Windows.Forms.Button();
 			this.messageBoxListView = new System.Windows.Forms.ListView();
+			this.label2 = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -59,7 +59,7 @@ namespace OMDB_Requester {
 			// 
 			// csvButton
 			// 
-			this.csvButton.Location = new System.Drawing.Point(459, 495);
+			this.csvButton.Location = new System.Drawing.Point(12, 495);
 			this.csvButton.Margin = new System.Windows.Forms.Padding(4);
 			this.csvButton.Name = "csvButton";
 			this.csvButton.Size = new System.Drawing.Size(112, 32);
@@ -71,7 +71,7 @@ namespace OMDB_Requester {
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Location = new System.Drawing.Point(963, 48);
+			this.label3.Location = new System.Drawing.Point(939, 45);
 			this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(115, 18);
@@ -98,17 +98,17 @@ namespace OMDB_Requester {
 			this.editApiButton.UseVisualStyleBackColor = true;
 			this.editApiButton.Click += new System.EventHandler(this.editApiButton_Click);
 			// 
-			// linkLabel1
+			// omdbLink
 			// 
-			this.linkLabel1.AutoSize = true;
-			this.linkLabel1.Location = new System.Drawing.Point(963, 66);
-			this.linkLabel1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-			this.linkLabel1.Name = "linkLabel1";
-			this.linkLabel1.Size = new System.Drawing.Size(144, 18);
-			this.linkLabel1.TabIndex = 10;
-			this.linkLabel1.TabStop = true;
-			this.linkLabel1.Text = "Get OMDB API Key";
-			this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+			this.omdbLink.AutoSize = true;
+			this.omdbLink.Location = new System.Drawing.Point(897, 81);
+			this.omdbLink.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.omdbLink.Name = "omdbLink";
+			this.omdbLink.Size = new System.Drawing.Size(144, 18);
+			this.omdbLink.TabIndex = 10;
+			this.omdbLink.TabStop = true;
+			this.omdbLink.Text = "Get OMDB API Key";
+			this.omdbLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.omdbLink_LinkClicked);
 			// 
 			// dataGridView1
 			// 
@@ -118,45 +118,46 @@ namespace OMDB_Requester {
 			this.dataGridView1.Size = new System.Drawing.Size(878, 422);
 			this.dataGridView1.TabIndex = 11;
 			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(465, 45);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(386, 18);
-			this.label1.TabIndex = 12;
-			this.label1.Text = "Separate with commas, put years inside perin \"(2007)\"";
-			// 
 			// folderMatchButton
 			// 
-			this.folderMatchButton.Location = new System.Drawing.Point(942, 108);
+			this.folderMatchButton.Location = new System.Drawing.Point(896, 102);
 			this.folderMatchButton.Name = "folderMatchButton";
 			this.folderMatchButton.Size = new System.Drawing.Size(148, 51);
 			this.folderMatchButton.TabIndex = 13;
 			this.folderMatchButton.Text = "Automatic Folder Match";
 			this.folderMatchButton.UseVisualStyleBackColor = true;
-			this.folderMatchButton.Click += new System.EventHandler(this.button1_Click);
+			this.folderMatchButton.Click += new System.EventHandler(this.folderMatchButton_Click);
 			// 
 			// messageBoxListView
 			// 
 			this.messageBoxListView.HideSelection = false;
-			this.messageBoxListView.Location = new System.Drawing.Point(942, 185);
+			this.messageBoxListView.Location = new System.Drawing.Point(896, 199);
 			this.messageBoxListView.Name = "messageBoxListView";
-			this.messageBoxListView.Size = new System.Drawing.Size(246, 303);
+			this.messageBoxListView.Size = new System.Drawing.Size(301, 335);
 			this.messageBoxListView.TabIndex = 14;
 			this.messageBoxListView.UseCompatibleStateImageBehavior = false;
 			this.messageBoxListView.View = System.Windows.Forms.View.List;
+			// 
+			// label2
+			// 
+			this.label2.AutoSize = true;
+			this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(1003, 177);
+			this.label2.Name = "label2";
+			this.label2.Size = new System.Drawing.Size(87, 19);
+			this.label2.TabIndex = 15;
+			this.label2.Text = "Event Log";
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1209, 546);
+			this.Controls.Add(this.label2);
 			this.Controls.Add(this.messageBoxListView);
 			this.Controls.Add(this.folderMatchButton);
-			this.Controls.Add(this.label1);
 			this.Controls.Add(this.dataGridView1);
-			this.Controls.Add(this.linkLabel1);
+			this.Controls.Add(this.omdbLink);
 			this.Controls.Add(this.editApiButton);
 			this.Controls.Add(this.apiTextbox);
 			this.Controls.Add(this.label3);
@@ -181,11 +182,11 @@ namespace OMDB_Requester {
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox apiTextbox;
         private System.Windows.Forms.Button editApiButton;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.LinkLabel omdbLink;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Button folderMatchButton;
 		private System.Windows.Forms.ListView messageBoxListView;
+		private System.Windows.Forms.Label label2;
 	}
 }
 
