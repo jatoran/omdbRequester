@@ -31,10 +31,3 @@ Multiple entries:
 
 >"Braveheart (1995), Godfather (1972), Blade Runner 2049 (2017), Soldier(1998)"
 
-### NOTES
-
-### FUTURE WORK
-
-
-
-
