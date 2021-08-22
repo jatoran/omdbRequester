@@ -10,7 +10,9 @@ Match movies to OMDB's movie database for Year, Genre, ratings, and more
 
 ### FEATURES
 
-Automatic foldier matching.
+1. Automatic foldier matching
+2. Multiple Review Sources
+3. Rapid API Access
 
 ### INSTALLING
 
