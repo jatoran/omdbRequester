@@ -23,13 +23,13 @@ Other: TBD
 
 ### USAGE
 
-Proper formatting:
+Accepted formats:
 
->"Braveheart"  OR "Braveheart (1995)"
+>"Braveheart" OR "Braveheart (1995)"
 
 Multiple entries:
 
->"Braveheart (1995), Godfather (1972), Blade Runner 2049 (2017)"
+>"Braveheart (1995), Godfather (1972), Blade Runner 2049 (2017), Soldier(1998)"
 
 ### NOTES
 
