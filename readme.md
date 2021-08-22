@@ -23,7 +23,7 @@ Other: TBD
 
 ### USAGE
 
-Accepted formats:
+Accepted formats / Folder Titles:
 
 >"Braveheart" OR "Braveheart (1995)"
 
