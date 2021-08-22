@@ -2,7 +2,7 @@
 
 ## Batch process movie folder titles or manual entries against OMDB's database to a table containing multiple ratings, actors, directors, plot, and more.
 
-## Profer Movie Title or Folder Format
+### Proper Movie Title or Folder Format
 
 "Braveheart"  OR "Braveheart (1995)"
 
